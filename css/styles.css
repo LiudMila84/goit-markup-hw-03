@@ -1,0 +1,279 @@
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+:root {
+--primary-text-color: #434455;
+--title-text-color: #2E2F42;
+--accent-color: #4D5AE5;
+--primary-background-color:#FFFFFF;
+--secondary-background-color: #2E2F42;
+--primary-color-button: #FFFFFF;
+}
+body {
+margin: 0;
+background-color: var(--primary-background-color);
+color: var(--primary-text-color);
+font-family: Roboto, sans-serif;
+font-weight: 400;
+}
+img {
+    display: block;
+}
+h1, h2, h3, p {
+    margin: 0;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+.container {
+width: 1158px;
+margin-left: auto;
+margin-right: auto;
+padding-left: 15px;
+padding-right: 15px;
+}
+header {
+border-bottom: 1px solid #E7E9FC;
+}
+header .container {
+display: flex;
+flex-direction: main-start;
+padding-top: 24px;
+padding-bottom: 24px;
+}
+section {
+padding-top: 120px;
+padding-bottom: 120px;
+}
+.footer .logo {
+margin-bottom: 16px;
+}
+.logo {
+font-family: Raleway;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+text-transform: uppercase;
+text-decoration: none;
+display: inline-block;
+margin-left: 15px;
+}
+.logo-first-word {
+color: var(--accent-color);
+}
+.logo-second-word {
+color: var(--title-text-color);
+}
+.logo-second-word-footer {
+color: #F4F4FD;
+}
+.nav-list {
+list-style-type: none;
+font-family: Roboto;
+font-weight: 600;
+display: flex;
+margin-left: 80px;
+
+}
+.nav-list-link {
+text-decoration: none;
+color: var(--title-text-color);
+font-size: 16px;
+line-height: 1.33;
+}
+.portfolio-nav {
+padding-left: 40px;
+padding-right: 40px;
+}
+.nav-list-link:hover {
+color: var(--primary-text-color);
+}
+.nav-list-link:focus {
+color:var(--accent-color) ;
+}
+.contacts {
+list-style-type: none;
+display: flex;
+margin-left: auto;
+margin-right: 15px;
+}
+.mail {
+margin-right: 40px;
+}
+.contact {
+color: var(--primary-text-color);
+font-size: 16px;
+line-height: 1.33;
+text-decoration: none;
+}
+.contact-block {
+display: inline-flexbox;
+}
+.hero .container {
+margin-left: auto;
+margin-right: auto;
+}
+.hero {
+background-color: var(--secondary-background-color);
+text-align: center;
+}
+.hero-title {
+font-size: 56px;
+line-height: 1.07;
+font-weight: 600;
+color: #FFFFFF;
+margin: 0 auto 48px auto;
+width: 492px;
+}
+.button-order {
+font-family: Roboto, san-serif;
+font-weight: 600;
+font-size: 16px;
+line-height: 1.19;
+color: var(--primary-color-button);
+background-color: #4D5AE5;
+cursor: pointer;
+
+padding: 16px 32px;
+width: 106px;
+border: 1em transparent ;
+border-radius: 4px;
+}
+.button-order:focus {
+background-color: #404BBF;
+}
+.works {
+padding-top: 0;
+padding-bottom: 120px;
+}
+.title-advantages {
+display: none;
+}
+.title-advantages-list {
+list-style-type: none;
+display: flex;
+gap: 24px;
+}
+.subtitle-advantages {
+color: var(--title-text-color);
+font-size: 20px;
+line-height: 1.2;
+font-weight: 600;
+margin-bottom: 8px;
+width: 264px;
+}
+.subtitle-advantages-text{
+font-size: 16px;
+line-height: 1.5;
+max-width: 264px;
+}
+.title-works,
+.title-team {
+color: var(--title-text-color);
+font-weight: 600;
+font-size: 36px;
+line-height: 1.11;
+
+padding-bottom: 72px;
+text-align: center;
+}
+.title-works-list {
+list-style-type: none;
+display: flex;
+gap: 24px;
+}
+.title-team-list {
+list-style-type: none;
+display: flex;
+gap: 24px;
+}
+.title-team-name {
+color: var(--title-text-color);
+font-weight: 600;
+font-size: 20px;
+line-height: 1.2;
+text-align: center;
+padding-bottom: 8px;
+}
+.job-title {
+font-size: 16px;
+line-height: 1.5;
+text-align: center;
+}
+.bottom-part {
+padding: 16px 32px;
+}
+.footer {
+background-color: var(--secondary-background-color);
+}
+.footer .container {
+padding: 100px 0;
+}
+.text-footer {
+color: #E7E9FC;
+font-size: 16px;
+line-height: 1.5;
+margin-left: 15px;
+width: 264px;
+}
+.portfolio {
+padding-top: 96px;
+}
+.title-portfolio {
+display: none;
+}
+.filter-list {
+list-style-type: none;
+font-weight: 600;
+}
+ul.filter-list{
+display: flex;
+margin-bottom: 72px;
+gap: 24px;
+justify-content: center;
+}
+.filter-button {
+color: var(--accent-color);
+background-color: #F4F4FD;
+border: 1px solid #E7E9FC;
+border-radius: 4px;
+font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+cursor: pointer;
+padding: 8px 16px;
+}
+.filter-button:focus {
+color: var(--primary-color-button);
+background-color: var(--accent-color);
+}
+.project-cards-list {
+list-style-type: none;
+display: flex;
+flex-wrap: wrap;
+row-gap: 48px;
+column-gap: 24px;
+padding: 0;
+margin: 0;
+flex-basis: calc((100%-48px)/3);
+}
+.project-title {
+color: var(--title-text-color);
+font-weight: 600;
+font-size: 20px;
+line-height: 1.2;
+padding-bottom: 8px;
+}
+.project-type {
+font-size: 16px;
+line-height: 1.5;
+}
+.buttom-part-card {
+padding: 32px 0 32px 0;
+border: 0.5px solid #F4F4FD;
+}
