@@ -124,6 +124,10 @@ display: inline-flexbox;
 margin-left: auto;
 margin-right: auto;
 }
+.section.hero {
+padding-top: 192px;
+padding-bottom: 192px;
+}
 .hero {
 background-color: var(--secondary-background-color);
 text-align: center;
@@ -211,7 +215,7 @@ line-height: 1.5;
 text-align: center;
 }
 .bottom-part {
-padding: 16px 32px;
+padding: 32px 16px;
 }
 .footer {
 background-color: var(--secondary-background-color);
@@ -232,6 +236,7 @@ padding-top: 96px;
 .filter-list {
 list-style-type: none;
 font-weight: 600;
+margin-bottom: 72px;
 }
 ul.filter-list{
 display: flex;
@@ -279,6 +284,6 @@ line-height: 1.5;
 padding-right:0;
 padding-left: 16px;
 border: 0.5px solid #F4F4FD;
-margin-top: 32px;
-margin-bottom: 32px;
+padding-top: 32px;
+padding-bottom: 32px;
 }
